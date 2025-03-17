@@ -55,7 +55,7 @@ public class App {
         System.out.print("Masukan No KTP: ");
         String noKTP = scanner.nextLine();
         dataUser.tambahPelanggan(nama, alamat, noTelp, noKTP);
-        System.out.println("Berhasil menambahkan pelanggan");
+        System.out.println("Berhasil menambahkan pelanggann");
     }
 
     private static void lihatPelanggan() {
