@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import database.dataUser;
 
+//main menu
+
 public class App {
     private static dataUser dataUser = new dataUser();
     private static Scanner scanner = new Scanner(System.in);
