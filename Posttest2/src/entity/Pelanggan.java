@@ -14,6 +14,8 @@ public class Pelanggan {
         this.noKTP = noKTP;
     }
 
+    // Getter and Setter
+
     public void setNama(String nama){
         this.nama = nama;
     }

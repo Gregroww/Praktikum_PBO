@@ -57,7 +57,6 @@ public class App {
         dataUser.tambahPelanggan(nama, alamat, noTelp, noKTP);
         System.out.println("Berhasil menambahkan pelanggann");
     }
-
     private static void lihatPelanggan() {
         dataUser.lihatPelanggan();
     }

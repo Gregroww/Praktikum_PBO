@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class dataUser {
-    private List<Pelanggan> pelangganList = new ArrayList<>();
-
+    List<Pelanggan> pelangganList = new ArrayList<>(); //default
+    protected List<String> userAccount = new ArrayList<>(); //protected
     public void tambahPelanggan(String nama, String alamat, String noTelp, String noKTP) {
         Pelanggan pelanggan = new Pelanggan(nama, alamat, noTelp, noKTP);
         pelangganList.add(pelanggan);
+        userAccount.add(nama);
         System.out.println("Data berhasil ditambahkan");
     }
 
