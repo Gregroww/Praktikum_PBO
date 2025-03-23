@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import database.dataUser;
 
-//main menu  sadsadsadsadas
+//main menu
 
 public class App {
     private static dataUser dataUser = new dataUser();
