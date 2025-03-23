@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import database.dataUser;
-import entity.Pelanggan;
 
 public class App {
     private static dataUser dataUser = new dataUser();
