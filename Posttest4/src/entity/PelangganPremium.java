@@ -8,6 +8,13 @@ public class PelangganPremium extends Pelanggan {
         this.diskon = diskon;
     }
 
+    // Override
+    @Override
+    public String getInfoPelanggan() {
+        return super.getInfoPelanggan() + "\nDiskon: " + diskon + "%";
+    }
+
+
     public double getDiskon() {
         return diskon;
     }

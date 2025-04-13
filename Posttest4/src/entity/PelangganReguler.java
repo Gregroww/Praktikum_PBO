@@ -7,6 +7,12 @@ public class PelangganReguler extends Pelanggan {
         super(nama, alamat, noTelp, noKTP);
         this.poin = poin;
     }
+    // Override
+    @Override
+    public String getInfoPelanggan() {
+        return super.getInfoPelanggan() + "\nPoin: " + poin;
+    }
+
 
     public int getPoin() {
         return poin;

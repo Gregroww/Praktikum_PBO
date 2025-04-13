@@ -47,5 +47,11 @@ public class Pelanggan {
     public String getNoKTP(){
         return noKTP;
     }
-    
+
+    // Superclass
+
+    public String getInfoPelanggan() {
+        return "Nama: " + nama + "\nAlamat: " + alamat + "\nNo Telp: " + noTelp + "\nNo KTP: " + noKTP;
+    }
+
 }

@@ -2,10 +2,13 @@ package database;
 import entity.Pelanggan;
 import java.util.ArrayList;
 import java.util.List;
+import entity.PelangganPremium;
+import entity.PelangganReguler;
 
 public class dataUser {
-    List<Pelanggan> pelangganList = new ArrayList<>(); //default
+    public List<Pelanggan> pelangganList = new ArrayList<>(); //default
     protected List<String> userAccount = new ArrayList<>(); //protected
+
     public void tambahPelanggan(String nama, String alamat, String noTelp, String noKTP) {
         Pelanggan pelanggan = new Pelanggan(nama, alamat, noTelp, noKTP);
         pelangganList.add(pelanggan);
@@ -60,4 +63,20 @@ public class dataUser {
         }
         return null;
     }
+    // Overload pelanggan reguler
+    public void tambahPelanggan(String nama, String alamat, String noTelp, String noKTP, int poin) {
+        PelangganReguler pelanggan = new PelangganReguler(nama, alamat, noTelp, noKTP, poin);
+        pelangganList.add(pelanggan);
+        userAccount.add(nama);
+        System.out.println("Data Reguler berhasil ditambahkan");
+    }
+
+    // Overloade pelanggan premium
+    public void tambahPelanggan(String nama, String alamat, String noTelp, String noKTP, double diskon) {
+        PelangganPremium pelanggan = new PelangganPremium(nama, alamat, noTelp, noKTP, diskon);
+        pelangganList.add(pelanggan);
+        userAccount.add(nama);
+        System.out.println("Data Premium berhasil ditambahkan");
+    }
+
 }
