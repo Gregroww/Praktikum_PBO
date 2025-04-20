@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import entity.PelangganPremium;
 import entity.PelangganReguler;
+import entity.PelangganBiasa;
 
-public class dataUser {
+public final class dataUser { //final class
     public List<Pelanggan> pelangganList = new ArrayList<>(); //default
     protected List<String> userAccount = new ArrayList<>(); //protected
 
     public void tambahPelanggan(String nama, String alamat, String noTelp, String noKTP) {
-        Pelanggan pelanggan = new Pelanggan(nama, alamat, noTelp, noKTP);
+        Pelanggan pelanggan = new PelangganBiasa(nama, alamat, noTelp, noKTP); // ✅
         pelangganList.add(pelanggan);
         userAccount.add(nama);
         System.out.println("Data berhasil ditambahkan");

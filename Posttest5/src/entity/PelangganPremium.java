@@ -22,4 +22,8 @@ public class PelangganPremium extends Pelanggan {
     public void setDiskon(double diskon) {
         this.diskon = diskon;
     }
+
+    public String getTipePelanggan() {
+        return "Premium";
+    }
 }

@@ -1,12 +1,11 @@
 package entity;
 
-public class Pelanggan {
+public abstract class Pelanggan { //abstract class
     private String nama;
     private String alamat;
     private String noTelp;
-    private String noKTP;
+    private final String noKTP;   //final atribut
 
-    public Pelanggan(){}
     public Pelanggan(String nama, String alamat, String noTelp, String noKTP){
         this.nama = nama;
         this.alamat = alamat;
@@ -28,9 +27,6 @@ public class Pelanggan {
         this.noTelp = noTelp;
     }
 
-    public void setNoKTP(String noKTP){
-        this.noKTP = noKTP;
-    }
 
     public String getNama(){
         return nama;
@@ -44,14 +40,15 @@ public class Pelanggan {
         return noTelp;
     }
 
-    public String getNoKTP(){
+    public final String getNoKTP(){ // final method
         return noKTP;
     }
 
     // Superclass
 
     public String getInfoPelanggan() {
-        return "Nama: " + nama + "\nAlamat: " + alamat + "\nNo Telp: " + noTelp + "\nNo KTP: " + noKTP;
+        return "Tipe: " + getTipePelanggan() + "\nNama: " + nama + "\nAlamat: " + alamat + "\nNo Telp: " + noTelp + "\nNo KTP: " + noKTP;
     }
 
+    public abstract String getTipePelanggan(); // abstract method
 }

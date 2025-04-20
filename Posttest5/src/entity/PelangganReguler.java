@@ -21,4 +21,7 @@ public class PelangganReguler extends Pelanggan {
     public void setPoin(int poin) {
         this.poin = poin;
     }
+    public String getTipePelanggan() { // Override abstrack method
+        return "Reguler";
+    }
 }

@@ -61,7 +61,6 @@ public class App {
 //        dataUser.tambahPelanggan(nama, alamat, noTelp, noKTP);
 //        System.out.println("Berhasil menambahkan pelanggann");
 //    }
-
     // Fungsi liat pelanggan yang lama
 //    private static void lihatPelanggan() {
 //        dataUser.lihatPelanggan();
