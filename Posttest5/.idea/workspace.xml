@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507aa731-230e-4910-a7b0-5a7a5e76d107" name="Changes" comment="add abstrak in inheritance ,final in noKtp + dataUser" />
+    <list default="true" id="507aa731-230e-4910-a7b0-5a7a5e76d107" name="Changes" comment="add abstrak in inheritance ,final in noKtp + dataUser">
+      <change afterPath="$PROJECT_DIR$/../Posttest6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/Posttest6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/database/dataAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/database/dataUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/Kamar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/Pelanggan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/PelangganBiasa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/PelangganPremium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/PelangganReguler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/Pembayaran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Posttest6/src/entity/Reservasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,16 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/Documents/Kuliah/Semester 4/Pemrograman Berbasis Objek/Posttest/Praktikum_PBO/ssFolder/Posttest5"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Documents/Kuliah/Semester 4/Pemrograman Berbasis Objek/Posttest/Praktikum_PBO/ssFolder/Posttest5&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
